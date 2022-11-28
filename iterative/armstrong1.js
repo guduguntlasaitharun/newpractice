@@ -1,14 +1,11 @@
-
-let x=153
-let sum=0;
-let temp=x
-while(temp>0)
-{
-    y=temp%10
-    sum+=y**3
-    temp=parseInt(temp/10)
+var e,x,number=0;
+var sum=prompt("enter a number")
+x=sum;
+while(x>0){
+    e=x%10;
+    x=parseInt(x/10);
+    number=number+(e*e*e)
 }
-console.log(x==sum)
 if(sum==number)
 {
     console.log(number,"the given number is an armstrong number");
