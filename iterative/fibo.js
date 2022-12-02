@@ -1,4 +1,4 @@
-//const number=parseInt(prompt("enter a positive number:"));
+/*//const number=parseInt(prompt("enter a positive number:"));
 let n1=0;
 let n2=1;
 console.log("fibonacci series");
@@ -10,15 +10,23 @@ for (let i=1;i<=5;i++)
     n2=n3;
 }
 
-/*let a=0;
+
+let a=0;
 let b=1;
 console.log("fibonacci series");
 while(a<9){
   console.log(a+" ");
   c=a+b;
     a=b;
-    b=c;*/
-   
-    
-   
-//}
+    b=c;
+}*/
+
+
+
+let i=1,fact=1;
+while(i<=6)
+{
+  fact=fact*i
+  i++
+}
+console.log(fact);

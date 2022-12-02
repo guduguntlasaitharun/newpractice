@@ -1,11 +1,7 @@
 const data = {
     items: [
         {
-            id: 119603782,
-            node_id: "MDEwOlJlcG9zaXRvcnkxMTk2MDM3ODI=",
-            name: "react-contextual",
-            full_name: "drcmda/react-contextual",
-            private: false,
+            id: 119603782,node_id: "MDEwOlJlcG9zaXRvcnkxMTk2MDM3ODI=",name: "react-contextual", full_name: "drcmda/react-contextual",private: false,
             owner: {
                 login: "drcmda",
                 id: 2223602,
@@ -46,5 +42,6 @@ function addNewItems(items, newItem) {
     return items;
 }
 
-//console.log(addNewItems(items, newItem));
-console.log(items[0].id);
+
+console.log(addNewItems(items, newItem));
+
