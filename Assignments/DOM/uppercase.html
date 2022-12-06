@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+       
+        <form>
+            
+            <label>onblur</label>
+            <input type="text" id="abc" onblur="ball()"/>
+        </form>
+        <script>
+        function ball()
+         {
+          let name=document.getElementById("abc").value;
+          document.getElementById("abc").value=name.toUpperCase()
+        }
+ </script>
+       
+    </body>
+</html>
