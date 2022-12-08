@@ -51,14 +51,16 @@ let wish= [{ "id": 1, "name": "Derril", "email": "ddeek0@homestead.com", "gender
 
 function display(){
     let rows="";
-for(emp of wish){
-    
+let i=0;
+while(i<=wish.length-1){
     rows=rows+
             `<tr>
-        <td>${emp.id}</td>
-        <td>${emp.name}</td>
-        <td>${emp.email}</td>
+        <td>${wish[i].id}</td>
+        <td>${wish[i].name}</td>
+        <td>${wish[i].email}</td>
+        
 </tr>`
+            i++;
 }
 document.getElementById("xyz").innerHTML=rows
 }
