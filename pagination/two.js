@@ -8,7 +8,7 @@ var images= [];
 for (var i = 0; i < 36; i++) {
   images.push({
     title: "Image " + (i + 1),
-    source: "https://picsum.photos/500/500?random&img=" + i
+    source: "./one.jpg" + i
   });
 }
 
