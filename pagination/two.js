@@ -8,7 +8,7 @@ var images= [];
 for (var i = 0; i < 36; i++) {
   images.push({
     title: "Image " + (i + 1),
-    source: "./one.jpg" + i
+    source: "http:" + i
   });
 }
 
