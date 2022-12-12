@@ -6,8 +6,6 @@ class emp{
     //this.account_bal=this.account_bal+a
    this.Min_bal=this.Min_bal+a
   }
-     
-
 }
 let a1=new emp()
 let a2=new emp()

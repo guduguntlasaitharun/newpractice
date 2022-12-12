@@ -11,8 +11,6 @@ class Emp{
 
   }
 
-     
-
 }
 let a1=new Emp()
 //let a2=new Emp()
